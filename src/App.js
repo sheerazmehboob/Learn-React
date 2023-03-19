@@ -13,21 +13,23 @@ import ModuleStyling from './components/ModuleStyling';
 import UseStateComponent from './components/UseStateComponent';
 import UseStateWithObjects from './components/UseStateWithObjects';
 import FunctionalState from './components/FunctionalState';
+import UseEffectComponnet from './components/UseEffectComponnet';
 
 function App() {
   return (
     <>
-    {/* <Counter/>
-    <ClickFunction name="Sherry"/>
-    <ConditioalRendring/>
-    <Student/>
-    <InlineStyling/>
-    <ExternalStyling value={false}/>
-    <ListRendering/>
-    <ModuleStyling/>
-    <UseStateComponent/> */}
+    {/* {/* <Counter/> */}
+    {/* <ClickFunction name="Sherry"/> */}
+    {/* <ConditioalRendring/> */}
+    {/* <Student/> */}
+    {/* <InlineStyling/> */}
+    {/* <ExternalStyling value={false}/> */}
+    {/* <ListRendering/> */}
+    {/* <ModuleStyling/> */}
+    {/* <UseStateComponent/> */}
     {/* <UseStateWithObjects/> */}
-    <FunctionalState/>
+    {/* <FunctionalState/> */}
+    <UseEffectComponnet/>
     </>
     
   );
