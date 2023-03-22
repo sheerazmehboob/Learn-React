@@ -16,6 +16,7 @@ import FunctionalState from './components/FunctionalState';
 import UseEffectComponnet from './components/UseEffectComponnet';
 import UseContextComponentA from './components/UseContextComponentA'
 import { createContext } from 'react';
+import ControlledComponentWithFunctionalComponent from './components/ControlledComponentWithFunctionalComponent';
 
 // Exported this context so which ever component want to use this can import it and use it
 export const nameContext = createContext()
@@ -42,13 +43,15 @@ function App() {
                   <UseContextComponentA/>
                 </nameContext.Provider> */}
 
-    {/* To Use Multiple Context we will always place component inside the nested tags*/}
-            <nameContext.Provider value={'Sheeraz'}>
+    {/*Uncomment Below Code. To Use Multiple Context we will always place component inside the nested tags*/}
+            {/* <nameContext.Provider value={'Sheeraz'}>
                 <cityContext.Provider value={'Lahore'}>
                     <UseContextComponentA/>
                 </cityContext.Provider>
-            </nameContext.Provider>
+            </nameContext.Provider> */}
 
+    {/* Creating Form and using Controlled Component */}
+            <ControlledComponentWithFunctionalComponent/>
 
     </>
     
